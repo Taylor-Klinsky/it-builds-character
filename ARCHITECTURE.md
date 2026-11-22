@@ -10,4 +10,5 @@ Application Engine
 Persistence Layer
 
 - Stores application definitions, runtime data, users
+
 **Database: PostgreSQL**
