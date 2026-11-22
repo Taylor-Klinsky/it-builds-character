@@ -22,6 +22,7 @@ The platform should prioritize:
 - **Separation of concerns:** Data, presentation, logic, and collaboration should operate as distinct but interconnected systems.
 - **Reusability:** Components and complete applications should be reusable, shareable, and customizable.
 - **Collaboration:** Multiple users should eventually be able to interact with the same application simultaneously.
+- **Non-destructive operations by default:** Where practical, preserve historical versions, prefer archiving over deletion, prefer reversible changes, maintain audit histories for important operations, and require explicit confirmation for irreversible actions.
 
 ## 1. Core Architecture
 
