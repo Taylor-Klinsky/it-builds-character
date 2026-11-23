@@ -339,3 +339,12 @@ Clarifications:
 - Hiding something is not the same as restricting access. Permissions must still be enforced by the backend.
 - Conditions should update reactively when their dependencies change.
 - The same visibility system should work for both pages and components.
+
+## Conditional behavior
+Components can change their behavior or appearance based on conditions, much like with conditional visibility.
+
+Examples:
+- A health indicator changes color as health decreases.
+- A button becomes disabled when a character lacks sufficient resources.
+- An inventory item displays differently when equipped.
+- A field becomes read-only after a character is finalized.
